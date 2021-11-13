@@ -11,7 +11,7 @@ console.log("Number of toppings: " + numberOfToppings);
 // console.log("Welcome to " + pizzaPlace + "! We are located on "+ location + ". We offer over " + 
 // numberOfToppings + " toppings to choose from!"); //previous
 
-console.log(`Welcome to ${pizzaPlace}! We are located on ${location}. We offer over ${numberOfToppings} toppings to choose from!`); //p
+console.log(`Welcome to ${pizzaPlace}! We are located on ${location}. We offer over ${numberOfToppings} toppings to choose from!`); 
 
 //construct an if...else statement.
 
