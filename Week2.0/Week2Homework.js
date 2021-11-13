@@ -8,8 +8,10 @@ console.log("My pizza place's name is called " + pizzaPlace);
 console.log("Number of toppings: " + numberOfToppings);
 
 //template literal
-console.log("Welcome to " + pizzaPlace + "! We are located on "+ location + ". We offer over " + 
-numberOfToppings + " toppings to choose from!");
+// console.log("Welcome to " + pizzaPlace + "! We are located on "+ location + ". We offer over " + 
+// numberOfToppings + " toppings to choose from!"); //previous
+
+console.log(`Welcome to ${pizzaPlace}! We are located on ${location}. We offer over ${numberOfToppings} toppings to choose from!`); //p
 
 //construct an if...else statement.
 
