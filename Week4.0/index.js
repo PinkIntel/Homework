@@ -1,0 +1,1 @@
+window.alert("Hello stranger! Interested in learning about anime? Then this is the page for you! :D");

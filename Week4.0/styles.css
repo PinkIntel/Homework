@@ -1,0 +1,121 @@
+html, body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #section1-image {
+        display: none;
+    }
+
+    #section3-image{
+        display: none;
+    }
+
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+.title {
+    background-image: url(images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+
+.title h1 {
+    /* text-shadow: 2px 2px 6px black; */
+    letter-spacing: 10px;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.history{
+    background-color: #023047;
+    text-align: left;
+    transition: 0.3s;
+    /* width: 50%;  */
+    padding: 100px;
+}
+
+.history:hover {
+    background-color: #8ecae6;
+    color: #023047;
+}
+
+#section1-image  {
+    z-index: -100;
+    background-image: url(images/matt-popovich-0FZrPECK5cg-unsplash.jpg);
+    background-size: cover;
+    padding-left: 50%;
+ 
+}
+
+/* #history-text {
+    margin: 10%;
+} */
+.section2 {
+    background-color: #ffb703;
+    text-align: left;
+    color: #023047;
+    padding: 100px;
+}
+
+.section2 ul {
+list-style-type: "♥ ";
+}
+
+.section3 {
+    display: flex;
+}
+
+.section3 ul{
+    list-style-type: "♥ ";
+}
+
+.section3_info{
+    background-color: #219ebc;
+    text-align: left;
+    padding: 100px;
+    width: 100%;
+}
+
+#section3-image  {
+    background-image: url(images/tengyart-Z3uG_nKOgBk-unsplash.jpg);
+    background-size: cover;
+    padding-left: 50%;
+ 
+}
+
+.footer {
+    background-color: #8ecae6;
+    padding: 70px;
+    color: #023047;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer a {
+    color:#023047;
+}
+
