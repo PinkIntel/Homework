@@ -1,0 +1,115 @@
+html {
+    background-color: antiquewhite;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(155, 77, 20);
+  }
+  
+  body {
+    text-align: center;
+    font-size: 18px;
+    padding: 2%;
+  }
+
+  p {
+      margin: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding: 0;
+    
+  }
+  
+  img {
+    height: 50%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    width: 80%;
+  }
+
+  #top {
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+img {
+      width: 500px;
+  }
+  
+#bio {
+  
+  }
+
+#bio > li {
+    padding: 2px;
+  }
+  
+#pro {
+    width: auto;
+  }
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+#earlyCareer img {
+    width: 80%;
+    margin: 20px;
+}
+
+#proCareer img {
+    width: 80%;
+    margin: 20px;
+}
+
+#acting img {
+    width: 80%;
+    margin: 20px;   
+}
+
+#achievements {
+    margin: 20px;
+}
+
+  @media (max-width: 375px) {
+ html {
+    background-color: rgb(255, 214, 160);
+    font-family: 'Outfit', sans-serif;
+    color: rgb(85, 41, 9);
+ }
+    #bio {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+      
+        
+       
+      }
+    #bio > li {
+        padding: 2px;
+        list-style-type: none;
+      }
+
+    img {
+        width: 100%;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
